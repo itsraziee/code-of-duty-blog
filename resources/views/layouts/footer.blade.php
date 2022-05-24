@@ -1,5 +1,5 @@
-<footer class="bg-coffeeBean py-20 mt-20">
-    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
+<footer class="bg-coffeeBean py-10 mt-20">
+    <div class="sm:grid grid-cols-2 w-2/6 pb-4 m-auto">
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
                 Pages
@@ -31,29 +31,21 @@
 
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
-                Find Us
+                Contact Us
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
-                    <a href="/">
-                        What we do
-                    </a>
+                    <p>Email: codblog@gmail.com</p1>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Address
-                    </a>
+                    <p>Phone: +63 912 345 6789</p>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Phone
-                    </a>
+                    <p>Facebook: Code Of Duty</p>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
-                        Contact
-                    </a>
+                    <p>Address: Malaybalay, Bukidnon</p>
                 </li>
             </ul>
         </div>

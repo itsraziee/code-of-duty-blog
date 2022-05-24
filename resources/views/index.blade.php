@@ -39,7 +39,7 @@
 </div>
 
 <div class="text-center p-15 bg-coffeeBean text-white">
-    <h2 class="uppercase text-gray-300 tracking-wider text-5xl lowercase font-extrabold text-shadow-md pb-9 py-5">
+    <h2 class="uppercase text-gray-300 tracking-wide text-5xl lowercase font-extrabold text-shadow-md pb-9 py-5">
         Discover the food you love
     </h2>
 </div>
