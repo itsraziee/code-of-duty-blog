@@ -13,7 +13,7 @@
 <div class="w-4/5 m-auto">
     <ul>
         @foreach ($errors->all() as $error)
-        <li class="w-5/6 mb-4 text-gray-50 bg-red-700 rounded-2xl py-3 p-6">
+        <li class="w-5/6 mb-4 text-gray-50 bg-red-700 rounded-1xl py-3 p-6">
             {{ $error }}
         </li>
         @endforeach

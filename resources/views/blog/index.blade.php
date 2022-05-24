@@ -11,7 +11,7 @@
 
 @if (session()->has('message'))
 <div class="w-4/5 m-auto mt-10 pl-2">
-    <p class="w-5/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
+    <p class="w-5/6 mb-4 text-gray-50 bg-green-500 rounded-1xl py-3 p-6">
         {{ session()->get('message') }}
     </p>
 </div>
