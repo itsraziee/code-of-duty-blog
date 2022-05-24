@@ -3,7 +3,7 @@
 @section('content')
 <div class="w-4/5 m-auto text-center">
     <div class="py-15 border-b border-gray-200">
-        <h1 class="font-bold text-4xl">
+        <h1 class="font-extrabold text-4xl">
             Blog Posts
         </h1>
     </div>
@@ -19,7 +19,7 @@
 
 @if (Auth::check())
 <div class="pt-15 w-4/5 m-auto">
-    <a href="/blog/create" class="bg-coffeeBean lowercase bg-transparent text-athensGray text-xs font-extrabold py-3 px-5 rounded-3xl">
+    <a href="/blog/create" class="bg-coffeeBean lowercase bg-transparent text-athensGray text-xs font-bold py-3 px-5 rounded-3xl">
         Create post
     </a>
 </div>
@@ -43,7 +43,7 @@
             {{ $post->description }}
         </p>
 
-        <a href="/blog/{{ $post->slug }}" class="uppercase text-athensGray bg-coffeeBean hover:bg-whiskey text-lg font-extrabold py-4 px-8 rounded-3xl">
+        <a href="/blog/{{ $post->slug }}" class="lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-3 px-5 rounded-3xl">
             Keep Reading
         </a>
 

@@ -5,7 +5,7 @@
     <div class="flex text-gray-100 pt-10">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
             <h1 class="sm:text-coffeeBean text-5xl lowercase font-extrabold text-shadow-md pb-14">
-                Nag kaon naka sir? by: Glen Artiaga
+                The older you get the more you eat
             </h1>
             <a href="/blog" class="rounded-1xl text-center bg-gray-50 text-gray-700 hover:bg-whiskey py-2 px-4 font-bold text-xl lowercase ">
                 Read More
@@ -21,15 +21,15 @@
 
     <div class="m-auto sm:m-auto text-left w-4/5 block">
         <h2 class="text-3xl font-extrabold text-gray-600">
-            Struggling to be a better web developer?
+            Struggling about not having a good food?
         </h2>
 
         <p class="py-8 text-gray-500 text-s">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+            We are here to help you!
         </p>
 
         <p class="font-extrabold text-gray-600 text-s pb-9">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+            Get different food ideas from different people.
         </p>
 
         <a href="/blog" class="lowercase text-athensGray bg-coffeeBean hover:bg-cioccolato  text-s font-extrabold py-3 px-8 rounded-3xl">
@@ -38,23 +38,10 @@
     </div>
 </div>
 
-<div class="text-center p-15 bg-black text-white">
-    <h2 class="text-2xl pb-5 text-l">
-        I'm an expert in...
+<div class="text-center p-15 bg-coffeeBean text-white">
+    <h2 class="uppercase text-gray-300 tracking-wider text-5xl lowercase font-extrabold text-shadow-md pb-9 py-5">
+        Discover the food you love
     </h2>
-
-    <span class="font-extrabold block text-4xl py-1">
-        Ux Design
-    </span>
-    <span class="font-extrabold block text-4xl py-1">
-        Project Management
-    </span>
-    <span class="font-extrabold block text-4xl py-1">
-        Digital Strategy
-    </span>
-    <span class="font-extrabold block text-4xl py-1">
-        Backend Development
-    </span>
 </div>
 
 <div class="text-center py-15">
@@ -82,7 +69,7 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
             </h3>
 
-            <a href="" class="uppercase hover:bg-cioccolato  bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+            <a href="" class="lowercase hover:bg-cioccolato  bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                 Find Out More
             </a>
         </div>

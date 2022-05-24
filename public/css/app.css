@@ -1225,7 +1225,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-cioccolato {
   --tw-text-opacity: 1;
-  color: rgb(61360C / var(--tw-text-opacity));
+  color: rgb(97 54 12 / var(--tw-text-opacity));
 }
 
 .no-underline {
@@ -1509,6 +1509,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     color: rgb(48 26 15 / var(--tw-text-opacity));
   }
 
+  .sm\:text-whiskey {
+    --tw-text-opacity: 1;
+    color: rgb(209 155 108 / var(--tw-text-opacity));
+  }
+
+  .sm\:text-cioccolato {
+    --tw-text-opacity: 1;
+    color: rgb(97 54 12 / var(--tw-text-opacity));
+  }
+
   .sm\:shadow-sm {
     --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -1522,3 +1532,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.tracking-wider {
+  letter-spacing: 0.10em;
+}

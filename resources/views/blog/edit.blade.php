@@ -3,7 +3,7 @@
 @section('content')
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
-        <h1 class="font-bold text-center text-4xl">
+        <h1 class="font-extrabold text-center text-4xl">
             Update Post
         </h1>
     </div>
@@ -26,11 +26,11 @@
         @csrf
         @method('PUT')
 
-        <input type="text" name="title" value="{{ $post->title }}" class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+        <input type="text" name="title" value="{{ $post->title }}" class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none">
 
         <textarea name="description" placeholder="Description..." class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $post->description }}</textarea>
 
-        <button type="submit" class="uppercase mt-15 text-athensGray bg-coffeeBean hover:bg-cioccolato text-lg font-extrabold py-4 px-8 rounded-3xl">
+        <button type="submit" class="mt-15 lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-3 px-5 rounded-3xl">
             Submit Post
         </button>
     </form>

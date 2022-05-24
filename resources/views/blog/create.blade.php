@@ -38,7 +38,7 @@
             </label>
         </div>
 
-        <button type="submit" class="uppercase mt-15 text-athensGray bg-coffeeBean hover:bg-cioccolato text-lg font-extrabold py-2 px-8 rounded-3xl">
+        <button type="submit" class="mt-15 lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-3 px-5 rounded-3xl">
             Submit Post
         </button>
     </form>
