@@ -16,7 +16,7 @@
 
 <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
     <div>
-        <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+        <img src="https://media.istockphoto.com/photos/japanese-ramen-soup-with-chicken-egg-chives-and-sprout-picture-id511793034?k=20&m=511793034&s=612x612&w=0&h=RY5lLZ7l2y-6oXHtRBvGOyBS6REiQNdEGibjbgbBwo4=" width="700" alt="">
     </div>
 
     <div class="m-auto sm:m-auto text-left w-4/5 block">
@@ -50,7 +50,7 @@
     </span>
 
     <h2 class="text-4xl font-bold py-10">
-        Recent Posts
+        Overview
     </h2>
 
     <p class="m-auto w-4/5 text-gray-500">
@@ -61,11 +61,11 @@
 <div class="sm:grid grid-cols-2 w-4/5 m-auto">
     <div class="flex bg-yellow-700 text-gray-100 pt-10">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-            <span class="uppercase text-xs">
-                PHP
+            <span class="uppercase text-2xl font-bold">
+                Spicy Chicken Wings
             </span>
 
-            <h3 class="text-xl font-bold py-10">
+            <h3 class="text-l py-10">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
             </h3>
 
@@ -75,7 +75,7 @@
         </div>
     </div>
     <div>
-        <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+        <img src="https://img.freepik.com/free-photo/hot-barbecue-chicken-wings-with-sauce-bbq-black-background-top-view_89816-22768.jpg?w=2000" alt="">
     </div>
 </div>
 @endsection

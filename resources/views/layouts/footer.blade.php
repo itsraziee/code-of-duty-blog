@@ -1,27 +1,27 @@
 <footer class="bg-coffeeBean py-10 mt-20">
-    <div class="sm:grid grid-cols-2 w-2/6 pb-4 m-auto">
+    <div class="sm:grid grid-cols-2 w-2/6 pb-2 mt-2 m-auto">
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
                 Pages
             </h3>
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+                <li class="pb-1 hover:underline">
                     <a href="/">
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:underline">
                     <a href="/blog">
                         Blog
                     </a>
                 </li>
-                <li class="pb-1">
-                    <a href="/login">
+                <li class="pb-1 hover:underline">
+                    <a href="/login ">
                         Login
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:underline">
                     <a href="/register">
                         Register
                     </a>
@@ -45,7 +45,7 @@
                     <p>Facebook: Code Of Duty</p>
                 </li>
                 <li class="pb-1">
-                    <p>Address: Malaybalay, Bukidnon</p>
+                    <p>Location: Malaybalay, Bukidnon</p>
                 </li>
             </ul>
         </div>
