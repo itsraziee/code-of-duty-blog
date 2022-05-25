@@ -30,7 +30,7 @@
 
         <textarea name="description" placeholder="Description..." class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $post->description }}</textarea>
 
-        <button type="submit" class="mt-15 lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-3 px-5 rounded-3xl">
+        <button type="submit" class="mt-15 lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-2 px-4 rounded-1xl">
             Submit Post
         </button>
     </form>

@@ -6,7 +6,7 @@
         <div class="w-full">
             <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
 
-                <header class="font-bold text-center text-2xl bg-athensGray text-gray-700 py-4 px-6 sm:py-7 sm:px-8 sm:rounded-t-md">
+                <header class="font-bold text-center text-2xl bg-white text-gray-700 py-4 px-6 sm:py-7 sm:px-8 sm:rounded-t-md">
                     {{ __('Reset Password') }}
                 </header>
 

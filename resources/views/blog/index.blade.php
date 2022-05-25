@@ -19,7 +19,7 @@
 
 @if (Auth::check())
 <div class="pt-15 w-4/5 m-auto">
-    <a href="/blog/create" class="bg-coffeeBean lowercase bg-transparent text-athensGray text-xs font-bold py-3 px-5 rounded-3xl">
+    <a href="/blog/create" class="bg-coffeeBean lowercase bg-transparent text-athensGray text-xs font-bold py-2 px-4 rounded-1xl">
         Create post
     </a>
 </div>
@@ -43,7 +43,7 @@
             {{ $post->description }}
         </p>
 
-        <a href="/blog/{{ $post->slug }}" class="lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-3 px-5 rounded-3xl">
+        <a href="/blog/{{ $post->slug }}" class="lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-2 px-4 rounded-1xl">
             Keep Reading
         </a>
 
