@@ -43,33 +43,21 @@
 </div>
 
 <div class="text-center py-15">
-    <span class="uppercase text-s text-gray-400">
-        Blog
-    </span>
-
     <h2 class="text-4xl font-bold py-10">
-        Overview
+        About
     </h2>
 
     <p class="m-auto w-4/5 text-gray-500">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+        FoodBlog is a website that provides a convenient way to create food ideas and recipes.
     </p>
 </div>
 
 <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-    <div class="flex bg-cioccolato text-gray-100 pt-10">
-        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-            <span class="uppercase text-2xl font-bold">
-                About
-            </span>
-
-            <h3 class="text-l py-10">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-            </h3>
-        </div>
+    <div>
+        <img src="https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-sauce_1220-5072.jpg?t=st=1653464850~exp=1653465450~hmac=6fc274d5eaac444b97b79dea5d45a2a33372e1114b63adf82705b68a07105eeb&w=996" alt="">
     </div>
     <div>
-        <img src="https://img.freepik.com/free-photo/hot-barbecue-chicken-wings-with-sauce-bbq-black-background-top-view_89816-22768.jpg?w=2000" alt="">
+        <img src="https://atastystory.com/wp-content/uploads/2018/07/bucatini-homemade-pesto-halloumi-1.jpg" alt="" class="object-fit absolute h-full w-full">
     </div>
 </div>
 
@@ -78,7 +66,7 @@
         <img src="https://img.freepik.com/free-photo/sliced-roast-t-bone-porterhouse-beef-meat-steak-steakhouse-menu-black-wooden-background-top-view_89816-30582.jpg" alt="" class="absolute h-full w-full">
     </div>
     <div>
-        <img src="https://atastystory.com/wp-content/uploads/2018/07/bucatini-homemade-pesto-halloumi-1.jpg" alt="" class="object-fit absolute h-full w-full">
+        <img src="https://img.freepik.com/free-photo/hot-barbecue-chicken-wings-with-sauce-bbq-black-background-top-view_89816-22768.jpg?w=2000" alt="">
     </div>
 </div>
 @endsection

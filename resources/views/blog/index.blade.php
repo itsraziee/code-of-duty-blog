@@ -38,15 +38,10 @@
         <span class="text-gray-500">
             By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
         </span>
-
-        <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
-            {{ $post->description }}
-        </p>
-
-        <a href="/blog/{{ $post->slug }}" class="lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-2 px-4 rounded-1xl">
-            Keep Reading
-        </a>
-
+        <br>
+        <br>
+        <br>
+        <br>
         @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
         <span class="float-right">
             <a href="/blog/{{ $post->slug }}/edit" class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
@@ -66,6 +61,9 @@
             </form>
         </span>
         @endif
+        <a href="/blog/{{ $post->slug }}" class="lowercase text-athensGray bg-coffeeBean hover:bg-whiskey text-sm font-bold py-2 px-4 rounded-1xl">
+            Read More
+        </a>
     </div>
 </div>
 @endforeach
